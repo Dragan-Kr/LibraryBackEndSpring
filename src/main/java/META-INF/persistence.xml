@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="libraryBackEnd">
+		<class>com.example.demo.jpa.Author</class>
+		<class>com.example.demo.jpa.Book</class>
+		<class>com.example.demo.jpa.BookOrder</class>
+		<class>com.example.demo.jpa.Employee</class>
+		<class>com.example.demo.jpa.Genre</class>
+		<class>com.example.demo.jpa.MembershipCard</class>
+		<class>com.example.demo.jpa.Payment</class>
+		<class>com.example.demo.jpa.Publisher</class>
+		<class>com.example.demo.jpa.Reader</class>
+		<class>com.example.demo.jpa.Rent</class>
+		<class>com.example.demo.jpa.Roles</class>
+		<class>com.example.demo.jpa.UsersRole</class>
+	</persistence-unit>
+</persistence>
